@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp012a5849caa6431ab1ad51f20b355e0a">
+  <meta>
+    <name>Resources</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="drawing-rounded-rect" type="Rounded Rectangle" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-line" type="Line" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>515</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-rounded-rect" type="Rounded Rectangle" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-line" type="Line" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="connector" type="Connector" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlComponentDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-08a026d980694633b0f10e85c49f8b6f" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-9dfd2ae5de8c475ca348a70f3a161821" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items>
+    <item id="e969e0acdc0c4d939209b7963c8b8d2b" cid="ED001" type="element-detail" name="ElementDetail1" style-class="" creator="" creation-date="11/02/2020 17:13:04">
+      <element-detail include-defaults="false" model-ref="b0f648b9960748b0b99a8eec722179b8" />
+    </item>
+    <item id="did4d51eb4227142f79e0fd7b5380337544225" cid="CN001" type="comment-connector" name="" style-class="" creator="" creation-date="11/02/2020 17:13:04" to="b0f648b9960748b0b99a8eec722179b8" />
+    <item id="59aad8b217a04f8b944f5a7afa4aefc7" cid="CMT002" type="comment" name="Comment" style-class="" creator="" creation-date="11/02/2020 17:29:58">
+      <comment>List of all rooms</comment>
+    </item>
+    <item id="di2f55c66580294d7f8f23ab5126954eed2599" cid="CN002" type="comment-connector" name="" style-class="" creator="" creation-date="11/02/2020 17:29:58" from="59aad8b217a04f8b944f5a7afa4aefc7" to="e4216308c9114e3da096718390ad08dc" />
+    <item id="3f38c65883e74cad86650f3e5a7361ff" cid="CMT003" type="comment" name="Comment" style-class="" creator="" creation-date="11/02/2020 17:30:28">
+      <comment>Information about room with unique id</comment>
+    </item>
+    <item id="di37a466550f7e4448b6ee6864df525fcd2191" cid="CN003" type="comment-connector" name="" style-class="" creator="" creation-date="11/02/2020 17:30:28" from="3f38c65883e74cad86650f3e5a7361ff" to="1f051751cad54938bbacbc1e00a8d8ae" />
+  </items>
+  <models>
+    <model id="p20d934242ef94635b0a2ee98521c6001_284558824" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/02/2020 17:12:16</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-component" id="p0887cfc6be934ee58d5fdbd6b7fc8b6c_339859137" name="ComponentDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-311,46">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/02/2020 17:12:16</creation-date>
+          <change-date>11/02/2020 17:32:03</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b0f648b9960748b0b99a8eec722179b8" cid="ELEM001" type="drawing-rounded-rect" name="RoundedRectangle1" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:12:50">
+            <drawing>
+              <text>    
+    rooms
+ </text>
+            </drawing>
+            <drawing-rounded-rect radius="20,20,20,20" />
+          </item>
+          <item id="b07bfdeb62a24d03826b4d4b1c6e61f8" cid="GNR001" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:17:24" visibility="package" />
+          <item id="di09653520dd1a434787f881a2e28c6c052483" cid="ELEM003" type="drawing-rounded-rect" name="RoundedRectangle1" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:12:50">
+            <drawing>
+              <text>    
+    schedules
+ </text>
+            </drawing>
+            <drawing-rounded-rect radius="20,20,20,20" />
+          </item>
+          <item id="di3b96266765cc4cdb9e38a4ac351619c04233" cid="ELEM004" type="drawing-rounded-rect" name="RoundedRectangle1" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:12:50">
+            <drawing>
+              <text>    
+    {room_id}
+ </text>
+            </drawing>
+            <drawing-rounded-rect radius="20,20,20,20" />
+          </item>
+          <item id="acde8761ab494aeb8f4401831f8ecdf9" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:20:49" from="b0f648b9960748b0b99a8eec722179b8" to="di09653520dd1a434787f881a2e28c6c052483" visibility="package">
+            <relation from="b0f648b9960748b0b99a8eec722179b8" to="di09653520dd1a434787f881a2e28c6c052483" derived="false">
+              <start-role id="umlar-13e0bd24-5148-49d8-92b6-fe6947a4ac6f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-336627e0-c8b8-4748-a8b5-2bddb253c894" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="1f051751cad54938bbacbc1e00a8d8ae" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:21:03" from="b0f648b9960748b0b99a8eec722179b8" to="di3b96266765cc4cdb9e38a4ac351619c04233" visibility="package">
+            <relation from="b0f648b9960748b0b99a8eec722179b8" to="di3b96266765cc4cdb9e38a4ac351619c04233" derived="false">
+              <start-role id="umlar-6ccae107-b0c5-42d8-a20f-a928436c263b" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-1f5776c1-cd5a-40ce-8aa2-06bfb2ee9145" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di9ca1b029086e4574bbb220d09596372f3702" cid="ELEM005" type="drawing-rounded-rect" name="RoundedRectangle1" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:12:50">
+            <drawing>
+              <text>    
+    rooms_list
+ </text>
+            </drawing>
+            <drawing-rounded-rect radius="20,20,20,20" />
+          </item>
+          <item id="a28060a9f1d04e71a2f1902f6e2cc8bb" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:23:16" from="b0f648b9960748b0b99a8eec722179b8" visibility="package">
+            <relation from="b0f648b9960748b0b99a8eec722179b8" to="di9ca1b029086e4574bbb220d09596372f3702" derived="false">
+              <start-role id="umlar-94f4ba82-883b-433d-837b-581629c8899f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2b96184b-bc08-45d6-a4e4-fa45f2fad27c" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ec91c01b0905416790e64e6ec775b95f" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:24:45" to="b0f648b9960748b0b99a8eec722179b8" visibility="package">
+            <relation from="" to="b0f648b9960748b0b99a8eec722179b8" derived="false">
+              <start-role id="umlar-844b41e5-3492-48d2-8127-a484533926ac" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-0a4af4fb-4f95-47ca-a96a-9b4a4243f019" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="46c263af6fc14f9185157ebe50b5d210" cid="ELEM006" type="drawing-rounded-rect" name="RoundedRectangle3" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:25:00">
+            <drawing />
+            <drawing-rounded-rect radius="20,20,20,20" />
+          </item>
+          <item id="Line1" cid="ELEM002" type="drawing-line" name="die4252ba554f145718cd31fdb3371a6121345" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:25:07">
+            <drawing />
+          </item>
+          <item id="aca5d42f1b824477b276e778d4e3e0c7" cid="CON001" type="connector" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:25:25" from="Line1" to="di09653520dd1a434787f881a2e28c6c052483" visibility="package" />
+          <item id="Line2" cid="ELEM007" type="drawing-line" name="die1158bfe9a79485490f21cd2488782db4381" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:25:35">
+            <drawing />
+          </item>
+          <item id="dibe696c1e39634481b0ea6ba1a222a9873107" cid="ELEM008" type="drawing-line" name="die4252ba554f145718cd31fdb3371a6121345" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:25:07">
+            <drawing />
+          </item>
+          <item id="dib9aa9177f57746edb7d7f46c87977cd74366" cid="ELEM009" type="drawing-line" name="die1158bfe9a79485490f21cd2488782db4381" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:25:35">
+            <drawing />
+          </item>
+          <item id="350134a22a87414697ecb6f2f0f4810c" cid="ELEM010" type="drawing-shape" name="SimpleShape1" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:27:22">
+            <drawing>
+              <text>            Resources
+            </text>
+            </drawing>
+            <drawing-shape type="Rectangle" />
+          </item>
+          <item id="8d7e4eae1937416eaf6a0c3dd8611483" cid="ELEM011" type="drawing-shape" name="SimpleShape2" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:28:26">
+            <drawing>
+              <text>Clients Request
+</text>
+            </drawing>
+            <drawing-shape type="Rectangle" />
+          </item>
+          <item id="e2345019f4b6414b98e1e0565c22ab0b" cid="REL005" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:29:20" from="8d7e4eae1937416eaf6a0c3dd8611483" to="di09653520dd1a434787f881a2e28c6c052483" visibility="package">
+            <relation from="8d7e4eae1937416eaf6a0c3dd8611483" to="di09653520dd1a434787f881a2e28c6c052483" derived="false">
+              <start-role id="umlar-ef72b55f-8899-49fd-a63c-a9bbc167a30f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-e27aa3b6-6054-4d09-b18c-a336ce48385d" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="e4216308c9114e3da096718390ad08dc" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:29:30" from="8d7e4eae1937416eaf6a0c3dd8611483" to="b0f648b9960748b0b99a8eec722179b8" visibility="package">
+            <relation from="8d7e4eae1937416eaf6a0c3dd8611483" to="b0f648b9960748b0b99a8eec722179b8" derived="false">
+              <start-role id="umlar-0cd9b29d-f813-4e44-b191-69e1349844e3" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-807770ab-9ca5-4585-809b-b779da754512" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="6737343a168a4dc8af2f4af93508521d" cid="CMT001" type="comment" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/02/2020 17:29:50">
+            <comment />
+          </item>
+        </abstract-items>
+        <layer id="9161415aa4534dc69503d311ccd521f2" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b0f648b9960748b0b99a8eec722179b8" iid="43b249b51cd840638185e603e8f61514" creation-date="11/02/2020 17:12:50" order-index="0" type="entity">
+            <layout ax="272.5" ay="245" awidth="74" aheight="54" x="272.5" y="245" width="74" height="54" rotation-center="-303,-272" />
+          </item>
+          <item id="di3b96266765cc4cdb9e38a4ac351619c04233" iid="c1f7686c74f64e13b4a8ba3f527af20d" creation-date="11/02/2020 17:12:50" order-index="0" type="entity">
+            <layout ax="451" ay="333" awidth="87" aheight="54" x="451" y="333" width="87" height="54" rotation-center="-435.5,-400" />
+          </item>
+          <item id="1f051751cad54938bbacbc1e00a8d8ae" iid="a34b6e69e7454fe2a0819c437700cc62" creation-date="11/02/2020 17:21:03" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="346" y1="287" x2="451" y2="360" start-border-pos="0.444444447755814" end-border-pos="0.875" start-local-pos="42" end-local-pos="27" name-position="0,20">
+              <points>
+                <point x="346" y="287" />
+                <point x="451" y="360" />
+              </points>
+            </layout>
+            <relation from="b0f648b9960748b0b99a8eec722179b8" from-iid="43b249b51cd840638185e603e8f61514" to="di3b96266765cc4cdb9e38a4ac351619c04233" to-iid="c1f7686c74f64e13b4a8ba3f527af20d" />
+          </item>
+          <item id="di09653520dd1a434787f881a2e28c6c052483" iid="4aed0923ff2248fda16e72943f01fa8b" creation-date="11/02/2020 17:12:50" order-index="0" type="entity">
+            <layout ax="266" ay="164" awidth="87" aheight="54" x="266" y="164" width="87" height="54" rotation-center="-477,-183" />
+          </item>
+          <item id="Line1" iid="43568f2791284d9caf0c5dfeead61e9c" creation-date="11/02/2020 17:25:07" order-index="3" type="entity">
+            <layout ax="233" ay="87" awidth="1" aheight="378" x="50" y="50" width="140" height="160" rotation-center="-233.5,-276" />
+            <drawing-line start-point="233,87" end-point="233,464" />
+          </item>
+          <item id="Line2" iid="d7a62a46791f40f09d33c8acdd6f999d" creation-date="11/02/2020 17:25:35" order-index="4" type="entity">
+            <layout ax="233" ay="87" awidth="371" aheight="1" x="50" y="50" width="140" height="160" rotation-center="-418.5,-87.5" />
+            <drawing-line start-point="233,87" end-point="603,87" />
+          </item>
+          <item id="dibe696c1e39634481b0ea6ba1a222a9873107" iid="34e42cb0a97b43a2baf87ad9d4d0fda1" creation-date="11/02/2020 17:25:07" order-index="3" type="entity">
+            <layout ax="603" ay="87" awidth="1" aheight="378" x="50" y="50" width="140" height="160" rotation-center="-603.5,-276" />
+            <drawing-line start-point="603,87" end-point="603,464" />
+          </item>
+          <item id="dib9aa9177f57746edb7d7f46c87977cd74366" iid="f6fcd61429cb4c4aaf1905bb54b6a1aa" creation-date="11/02/2020 17:25:35" order-index="4" type="entity">
+            <layout ax="233" ay="464" awidth="371" aheight="1" x="50" y="50" width="140" height="160" rotation-center="-418,-88" />
+            <drawing-line start-point="233,464" end-point="603,464" />
+          </item>
+          <item id="350134a22a87414697ecb6f2f0f4810c" iid="1d640df19b1a4cea8a7135a6fdc7516c" creation-date="11/02/2020 17:27:22" order-index="5" type="entity">
+            <layout ax="385.5" ay="100" awidth="66" aheight="39" x="385.5" y="100" width="66" height="39" rotation-center="-12,0" />
+          </item>
+          <item id="8d7e4eae1937416eaf6a0c3dd8611483" iid="c2610e62bd54427889121570834d4658" creation-date="11/02/2020 17:28:26" order-index="6" type="entity">
+            <layout ax="-22" ay="255" awidth="101" aheight="42" x="-22" y="255" width="101" height="42" rotation-center="40.5,-23" />
+          </item>
+          <item id="e2345019f4b6414b98e1e0565c22ab0b" iid="0ab6524bfe8348de8ecd435c7e1ffb72" creation-date="11/02/2020 17:29:20" order-index="7" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="79" y1="276" x2="266" y2="192" start-border-pos="0.375" end-border-pos="0.87037037037037" start-local-pos="21" end-local-pos="28" name-position="0,20">
+              <points>
+                <point x="79" y="276" />
+                <point x="266" y="192" />
+              </points>
+            </layout>
+            <relation from="8d7e4eae1937416eaf6a0c3dd8611483" from-iid="c2610e62bd54427889121570834d4658" to="di09653520dd1a434787f881a2e28c6c052483" to-iid="4aed0923ff2248fda16e72943f01fa8b" />
+          </item>
+          <item id="e4216308c9114e3da096718390ad08dc" iid="2692a37524584d188e911adb62a4cbab" creation-date="11/02/2020 17:29:30" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="79" y1="276" x2="272" y2="276" start-border-pos="0.375" end-border-pos="0.856481481481482" start-local-pos="21" end-local-pos="31" name-position="0,20">
+              <points>
+                <point x="79" y="276" />
+                <point x="272" y="276" />
+              </points>
+            </layout>
+            <relation from="8d7e4eae1937416eaf6a0c3dd8611483" from-iid="c2610e62bd54427889121570834d4658" to="b0f648b9960748b0b99a8eec722179b8" to-iid="43b249b51cd840638185e603e8f61514" />
+          </item>
+          <item id="59aad8b217a04f8b944f5a7afa4aefc7" iid="13326029b54a47939f93db15087e6b79" creation-date="11/02/2020 17:29:58" order-index="9" type="entity">
+            <layout ax="92" ay="543.9131" awidth="101" aheight="54.08691" x="92" y="543.9131" width="101" height="54.08691" rotation-center="19.5,22.95654" />
+          </item>
+          <item id="di2f55c66580294d7f8f23ab5126954eed2599" iid="cf9c75bcebec4780ac25e62ac3d22469" creation-date="11/02/2020 17:29:58" order-index="10" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="145" y1="544" x2="142" y2="276" start-border-pos="0.131570872693959" end-border-pos="0.326424870466321" name-position="0,20">
+              <points>
+                <point x="145" y="544" />
+                <point x="142" y="276" />
+              </points>
+            </layout>
+            <relation from="59aad8b217a04f8b944f5a7afa4aefc7" from-iid="13326029b54a47939f93db15087e6b79" to="e4216308c9114e3da096718390ad08dc" to-iid="2692a37524584d188e911adb62a4cbab" />
+          </item>
+          <item id="3f38c65883e74cad86650f3e5a7361ff" iid="805dfcd558c74e0dbd222cd8f5df3455" creation-date="11/02/2020 17:30:28" order-index="11" type="entity">
+            <layout ax="311" ay="517" awidth="140" aheight="50" x="311" y="517" width="140" height="50" rotation-center="0,25" />
+          </item>
+          <item id="di37a466550f7e4448b6ee6864df525fcd2191" iid="cc2219ab134c4c5b94f8c678be445507" creation-date="11/02/2020 17:30:28" order-index="12" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="383" y1="517" x2="381" y2="311" start-border-pos="0.128686087472098" end-border-pos="0.333333378740849" name-position="0,20">
+              <points>
+                <point x="383" y="517" />
+                <point x="381" y="311" />
+              </points>
+            </layout>
+            <relation from="3f38c65883e74cad86650f3e5a7361ff" from-iid="805dfcd558c74e0dbd222cd8f5df3455" to="1f051751cad54938bbacbc1e00a8d8ae" to-iid="a34b6e69e7454fe2a0819c437700cc62" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
